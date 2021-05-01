@@ -23,7 +23,7 @@ class MyQueue:
             self.data =  self.data[1:]
             return front
         else:
-            print('stack is already empty')
+            print('Queue is already empty')
 
     def peek(self) -> int:
         """
@@ -32,7 +32,7 @@ class MyQueue:
         if self.data:
             return self.data[0]
         else:
-            print('stack is empty')
+            print('Queue is empty')
         
 
     def empty(self) -> bool:
